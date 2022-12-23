@@ -1,36 +1,14 @@
-function siempre() {
-    return true;
+function dameTrue() {
+    return true
 }
 
-console.log(siempre());
+async function miPromesa() {
+    return setTimeout(() => console.log("Hola soy una promesa"), 5000)
+}
 
-const miPromesa = new Promise((resolve, reject) => {
-    if (true) {
-        resolve()
-    }else {
-        reject()
-    }
-});
-
-miPromesa
-   .then(() => console.log("Hola soy una promesa"))
-   .catch(() => console.log("ERROR"))
-
-   function* generaId() {
-    let id = 0;
+function* iPares() {
+    let id = 0
     while(true) {
-        id++
-        if (id === 10) {
-            return id
-        }
-        yield id // Esperando hasta que se vuelva a llamar
+        yield id += 2
     }
 }
-
-const gen = generaId();
-
-console.log(gen.next().value)
-console.log(gen.next().value)
-console.log(gen.next().value)
-console.log(gen.next().value)
-console.log(gen.next().value)
