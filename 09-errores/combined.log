@@ -1,0 +1,13 @@
+{"level":"info","message":"esto es un mensaje informativo","service":"user-service"}
+{"level":"warn","message":"Esto es una abvertencia","service":"user-service"}
+{"level":"error","message":"esto es un error","service":"user-service"}
+{"level":"info","message":"esto es un mensaje informativo","service":"user-service"}
+{"level":"warn","message":"Esto es una abvertencia","service":"user-service"}
+{"level":"error","message":"esto es un error","service":"user-service"}
+{"level":"info","message":"La funcion se esta ejecutando de forma correcta","service":"user-service"}
+{"level":"error","message":"ERROR!","service":"user-service"}
+{"level":"info","message":"esto es un mensaje informativo","service":"user-service"}
+{"level":"warn","message":"Esto es una abvertencia","service":"user-service"}
+{"level":"error","message":"esto es un error","service":"user-service"}
+{"level":"info","message":"La funcion se esta ejecutando de forma correcta","service":"user-service"}
+{"level":"error","message":"ERROR!","service":"user-service"}
