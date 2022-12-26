@@ -1,0 +1,22 @@
+.seccion {
+    background-color: cadetblue;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.parrafo {
+    background-color: aliceblue;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.parrafo.dragging {
+    opacity: 0.3;
+}
+
+.icon {
+    color: red;
+    font-size: 5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
