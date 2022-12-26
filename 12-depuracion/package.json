@@ -1,0 +1,12 @@
+{
+  "name": "12-depuracion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fibonacci.js",
+  "scripts": {
+    "start": "node fibonacci.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
